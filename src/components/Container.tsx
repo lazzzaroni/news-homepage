@@ -2,34 +2,29 @@ import Image from "next/image";
 
 import { cn } from "@/lib/utils";
 
+import Header from "./Header";
+
 export default function Container() {
   return (
     <>
-      <header className="flex py-4">
-        <span className="mr-auto">Logo</span>
-        <nav>
-          <ul className="flex">
-            <li>Home</li>
-            <li>New</li>
-            <li>Popular</li>
-            <li>Trending</li>
-            <li>Categories</li>
-          </ul>
-        </nav>
-      </header>
+      <Header />
       <main
         className={cn("grid grid-cols-1 gap-16", "md:grid-cols-3 md:gap-2")}
       >
         <section
           className={cn(
-            "grid grid-cols-1 gap-4 bg-purple-300",
+            "grid grid-cols-1 gap-4",
             "md:col-span-2 md:grid-cols-2"
           )}
         >
           <picture
             className={cn("mb-2 bg-purple-600", "md:col-span-2 md:mb-0")}
           >
-            picture
+            <source
+              media="(min-width:768px)"
+              srcSet="/images/image-web-3-desktop.jpg"
+            />
+            <img src="/images/image-web-3-mobile.jpg" alt="Article Image" />
           </picture>
           <h1
             className={cn(
@@ -40,7 +35,7 @@ export default function Container() {
             The Bright Future of Web 3.0?
           </h1>
           <div className={cn("bg-pink-600", " ")}>
-            <p className="pb-6 leading-relaxed">
+            <p className="pb-6 leading-relaxed text-neutral-dark-grayish-blue">
               We dive into the next evolution of the web that claims to put the
               power of the platforms back into the hands of the people. But is
               it really fulfilling its promise?
