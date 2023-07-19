@@ -9,7 +9,7 @@ const MyApp: AppType = ({ Component, pageProps }) => {
   return (
     <main
       className={cn(
-        "mx-auto flex min-h-screen flex-col bg-neutral-off-white font-sans text-neutral-very-dark-blue antialiased",
+        "mx-auto flex min-h-screen flex-col bg-neutral-off-white px-4 font-sans text-[15px] text-neutral-very-dark-blue antialiased",
         fontSans.variable
       )}
     >
