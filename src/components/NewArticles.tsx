@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 import { cn } from "@/lib/utils";
 
 export default function NewArticles() {
@@ -11,18 +13,24 @@ export default function NewArticles() {
         New
       </h1>
       <div>
-        <h2 className="text-xl font-bold leading-normal text-neutral-off-white">
+        <Link
+          href="#"
+          className="text-xl font-bold leading-normal text-neutral-off-white hover:text-primary-soft-orange"
+        >
           Hydrogen VS Electric Cars
-        </h2>
+        </Link>
         <p className="leading-loose">
           Will hydrogen-fueled cars ever catch up to EVs?
         </p>
       </div>
       <hr />
       <div>
-        <h2 className="text-xl font-bold leading-normal text-neutral-off-white">
+        <Link
+          href="#"
+          className="text-xl font-bold leading-normal text-neutral-off-white hover:text-primary-soft-orange"
+        >
           The Downsides of AI Artistry
-        </h2>
+        </Link>
         <p className="leading-loose">
           What are the possible adverse effects of on-demand AI image
           generation?
@@ -30,9 +38,12 @@ export default function NewArticles() {
       </div>
       <hr />
       <div>
-        <h2 className="text-xl font-bold leading-normal text-neutral-off-white">
+        <Link
+          href="#"
+          className="text-xl font-bold leading-normal text-neutral-off-white hover:text-primary-soft-orange"
+        >
           Is VC Funding Drying Up?
-        </h2>
+        </Link>
         <p className="leading-loose">
           Private funding by VC firms is down 50% YOY. We take a look at what
           that means.

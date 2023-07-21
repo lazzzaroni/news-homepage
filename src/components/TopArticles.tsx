@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 
@@ -19,9 +20,12 @@ export default function TopArticles() {
           <span className="text-3xl font-bold leading-none text-neutral-grayish-blue">
             01
           </span>
-          <h2 className="text-lg font-extrabold leading-relaxed">
+          <Link
+            href="#"
+            className="text-lg font-extrabold leading-relaxed hover:text-primary-soft-orange"
+          >
             Reviving Retro PCs
-          </h2>
+          </Link>
           <p className="text-neutral-dark-grayish-blue">
             What happens when old PCs are given modern upgrades?
           </p>
@@ -39,9 +43,12 @@ export default function TopArticles() {
           <span className="text-3xl font-bold leading-none text-neutral-grayish-blue">
             02
           </span>
-          <h2 className="text-lg font-extrabold leading-relaxed">
+          <Link
+            href="#"
+            className="text-lg font-extrabold leading-relaxed hover:text-primary-soft-orange"
+          >
             Top 10 Laptops of 2022
-          </h2>
+          </Link>
           <p className="text-neutral-dark-grayish-blue">
             Our best picks for various needs and budgets.
           </p>
@@ -59,9 +66,12 @@ export default function TopArticles() {
           <span className="text-3xl font-bold leading-none text-neutral-grayish-blue">
             03
           </span>
-          <h2 className="text-lg font-extrabold leading-relaxed">
+          <Link
+            href="#"
+            className="text-lg font-extrabold leading-relaxed hover:text-primary-soft-orange"
+          >
             The Growth of Gaming
-          </h2>
+          </Link>
           <p className="text-neutral-dark-grayish-blue">
             How the pandemic has sparked fresh opportunities.
           </p>

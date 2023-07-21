@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Link from "next/link";
 
 import { cn } from "@/lib/utils";
 
@@ -44,20 +45,60 @@ export default function Header() {
               <MenuClose />
             </button>
             <ul className="mx-7 my-14 flex flex-col gap-5 text-lg md:hidden">
-              <li>Home</li>
-              <li>New</li>
-              <li>Popular</li>
-              <li>Trending</li>
-              <li>Categories</li>
+              <li>
+                <Link href="#" className="hover:text-primary-soft-orange">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-primary-soft-orange">
+                  New
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-primary-soft-orange">
+                  Popular
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-primary-soft-orange">
+                  Trending
+                </Link>
+              </li>
+              <li>
+                <Link href="#" className="hover:text-primary-soft-orange">
+                  Categories
+                </Link>
+              </li>
             </ul>
           </div>
         </div>
         <ul className="hidden text-neutral-dark-grayish-blue md:flex md:h-8 md:items-center md:justify-center md:gap-10">
-          <li>Home</li>
-          <li>New</li>
-          <li>Popular</li>
-          <li>Trending</li>
-          <li>Categories</li>
+          <li>
+            <Link href="#" className="hover:text-primary-soft-orange">
+              Home
+            </Link>
+          </li>
+          <li>
+            <Link href="#" className="hover:text-primary-soft-orange">
+              New
+            </Link>
+          </li>
+          <li>
+            <Link href="#" className="hover:text-primary-soft-orange">
+              Popular
+            </Link>
+          </li>
+          <li>
+            <Link href="#" className="hover:text-primary-soft-orange">
+              Trending
+            </Link>
+          </li>
+          <li>
+            <Link href="#" className="hover:text-primary-soft-orange">
+              Categories
+            </Link>
+          </li>
         </ul>
       </nav>
     </header>
