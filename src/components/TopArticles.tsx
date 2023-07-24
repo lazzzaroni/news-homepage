@@ -14,7 +14,7 @@ export default function TopArticles() {
           alt=""
           width={200}
           height={254}
-          className="h-full w-auto object-cover md:w-1/3"
+          className="h-auto w-[100px] object-cover md:w-1/3"
         />
         <div className="flex flex-col gap-3">
           <span className="text-3xl font-bold leading-none text-neutral-grayish-blue">
@@ -37,7 +37,7 @@ export default function TopArticles() {
           alt=""
           width={200}
           height={254}
-          className="h-full w-auto object-cover md:w-1/3"
+          className="h-auto w-[100px] object-cover md:w-1/3"
         />
         <div className="flex flex-col gap-3">
           <span className="text-3xl font-bold leading-none text-neutral-grayish-blue">
@@ -60,7 +60,7 @@ export default function TopArticles() {
           alt=""
           width={200}
           height={254}
-          className="h-full w-auto object-cover md:w-1/3"
+          className="h-auto w-[100px] object-cover md:w-1/3"
         />
         <div className="flex flex-col gap-3">
           <span className="text-3xl font-bold leading-none text-neutral-grayish-blue">
