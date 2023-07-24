@@ -11,10 +11,10 @@ export default function Hero() {
       <picture className={cn("mb-2", "md:col-span-2 md:mb-0")}>
         <source
           media="(min-width:768px)"
-          srcSet="/images/image-web-3-desktop.jpg"
+          srcSet="/news-homepage/images/image-web-3-desktop.jpg"
         />
         <img
-          src="/images/image-web-3-mobile.jpg"
+          src="/news-homepage/images/image-web-3-mobile.jpg"
           alt="Article Image"
           className="h-full w-full object-cover"
         />

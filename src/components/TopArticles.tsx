@@ -10,7 +10,7 @@ export default function TopArticles() {
     >
       <article className="flex gap-7">
         <Image
-          src="/images/image-retro-pcs.jpg"
+          src="/news-homepage/images/image-retro-pcs.jpg"
           alt=""
           width={200}
           height={254}
@@ -33,7 +33,7 @@ export default function TopArticles() {
       </article>
       <article className="flex gap-7">
         <Image
-          src="/images/image-top-laptops.jpg"
+          src="/news-homepage/images/image-top-laptops.jpg"
           alt=""
           width={200}
           height={254}
@@ -56,7 +56,7 @@ export default function TopArticles() {
       </article>
       <article className="flex gap-7">
         <Image
-          src="/images/image-gaming-growth.jpg"
+          src="/news-homepage/images/image-gaming-growth.jpg"
           alt=""
           width={200}
           height={254}
